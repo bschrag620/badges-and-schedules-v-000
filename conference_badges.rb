@@ -7,6 +7,7 @@ def batch_badge_creator(array)
   messages = []
   array.each do |name|
     messages << badge_maker(name)
+  end
   messages
 end
 
@@ -16,5 +17,6 @@ def assign_rooms(array)
   array.each do |name|
     break if room_number > 7
     assignments << "Hello, #{name}! You'll be assigned to room #{room_number}"
+  end
   assignments
 end
