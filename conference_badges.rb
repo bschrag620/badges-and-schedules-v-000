@@ -17,6 +17,7 @@ def assign_rooms(array)
   array.each do |name|
     break if room_number > 7
     assignments << "Hello, #{name}! You'll be assigned to room #{room_number}!"
+    room_number += 1
   end
   assignments
 end
