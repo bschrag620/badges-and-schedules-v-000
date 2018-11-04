@@ -1,6 +1,6 @@
 # Write your code here.
 def badge_maker(name)
-  "Hello, my name is #{name}"
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(array)
@@ -16,7 +16,7 @@ def assign_rooms(array)
   assignments = []
   array.each do |name|
     break if room_number > 7
-    assignments << "Hello, #{name}! You'll be assigned to room #{room_number}"
+    assignments << "Hello, #{name}! You'll be assigned to room #{room_number}!"
   end
   assignments
 end
